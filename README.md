@@ -12,6 +12,9 @@ Hey, I'm Quang 👋 I like building tools that turn questions into SQL or catch 
 ## My journey
 
 <picture>
+  <source media="(min-width: 1440px)" srcset="./assets/journey-beach.png 1.2x">
+  <source media="(min-width: 1320px)" srcset="./assets/journey-beach.png 1.3x">
+  <source media="(min-width: 1220px)" srcset="./assets/journey-beach.png 1.6x">
   <source media="(min-width: 1180px)" srcset="./assets/journey-beach.png 2x">
   <img src="./assets/journey-beach-spacer.png" align="right" alt="">
 </picture>
