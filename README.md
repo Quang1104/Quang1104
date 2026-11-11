@@ -5,7 +5,7 @@
   </picture>
 </h1>
 
-Hey, I'm Quang 👋 I like building tools that turn questions into SQL or catch bad 3D labels before they ship.
+I work on applied machine learning, with projects in Vietnamese text-to-SQL and 3D annotation quality for ADAS.
 
 [LinkedIn](https://www.linkedin.com/in/quangxuan-nguyen/)
 
@@ -39,6 +39,11 @@ I built the RAG and SQL generation layer and designed the multi-agent chatbot fo
 
 `Python` · `LangChain` · `PostgreSQL` · `pgvector` · `Streamlit`
 
+### MentorPrep
+
+I proposed and built the frontend for a team dashboard that pulls CVAT jobs and GitHub activity into one place so annotators can review progress, quality scores, and difficult cases before mentor sessions.
+
+[Project showcase](https://nexus-workspace-demo.vercel.app/showcase)
 
 ## More machine learning work
 
