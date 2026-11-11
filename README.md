@@ -11,26 +11,23 @@ Hey, I'm Quang 👋 I like building tools that turn questions into SQL or catch 
 
 ## My journey
 
-<picture>
-  <source media="(min-width: 1440px)" srcset="./assets/journey-beach.png 1.2x">
-  <source media="(min-width: 1320px)" srcset="./assets/journey-beach.png 1.3x">
-  <source media="(min-width: 1220px)" srcset="./assets/journey-beach.png 1.6x">
-  <source media="(min-width: 1180px)" srcset="./assets/journey-beach.png 2x">
-  <img src="./assets/journey-beach-spacer.png" align="right" alt="">
-</picture>
-
 <table>
   <tr>
-    <td align="center"><a href="https://hcmus.edu.vn/"><img src="./assets/hcmus.png" width="140" alt="HCMUS"></a></td>
-    <td><strong>University of Science, VNU-HCM</strong><br>B.S. in Mathematical Methods in Computer Science<br>Sep 2022 – Jul 2026</td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://vinuni.edu.vn/"><img src="./assets/vinuni.png" width="140" alt="VinUniversity"></a></td>
-    <td><strong>VinUniversity</strong><br>Training in the Vingroup Applied AI Talent Program, Cohort 4<br>Sep 2026</td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://vinfastauto.com/vn_vi"><img src="./assets/vinfast.png" width="140" alt="VinFast"></a></td>
-    <td><strong>VinFast</strong><br>ADAS on-the-job training in 3D annotation and data quality<br>Oct 2026 – Present</td>
+    <td align="center" valign="top" width="33%">
+      <a href="https://hcmus.edu.vn/"><img src="./assets/hcmus.png" width="108" alt="University of Science, VNU-HCM"></a><br>
+      <strong>HCMUS</strong>
+      <p>B.S. in <abbr title="Mathematical Methods in Computer Science">Math Methods for CS</abbr><br><em>Sep 2022 – Jul 2026</em></p>
+    </td>
+    <td align="center" valign="top" width="33%">
+      <a href="https://vinuni.edu.vn/"><img src="./assets/vinuni.png" width="108" alt="VinUniversity"></a><br>
+      <strong>VinUni</strong>
+      <p>Vingroup Applied AI Talent Program, Cohort 4<br><em>Sep 2026</em></p>
+    </td>
+    <td align="center" valign="top" width="33%">
+      <a href="https://vinfastauto.com/vn_vi"><img src="./assets/vinfast.png" width="108" alt="VinFast"></a><br>
+      <strong>VinFast</strong>
+      <p>ADAS <abbr title="on-the-job training">OJT</abbr> in 3D labels and data quality<br><em>Oct 2026 – Present</em></p>
+    </td>
   </tr>
 </table>
 
