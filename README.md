@@ -1,15 +1,30 @@
 <h1>
   <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/profile-banner-still.png">
-    <img src="./assets/profile-banner.svg" alt="Quang Xuan Nguyen · AI / Machine Learning Engineer" width="1120">
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/profile-hello-world-still.png">
+    <img src="./assets/profile-hello-world.svg" alt="Quang Xuan Nguyen · AI / Machine Learning Engineer" width="1120">
   </picture>
 </h1>
 
 Hey, I'm Quang 👋 I like building tools that turn questions into SQL or catch bad 3D labels before they ship.
 
-These days I'm working on ADAS data quality at VinFast through the Vingroup Applied AI Talent Program. I studied Mathematical Methods in Computer Science at the University of Science, VNUHCM.
-
 [LinkedIn](https://www.linkedin.com/in/quangxuan-nguyen/)
+
+## My journey
+
+<table>
+  <tr>
+    <td align="center"><a href="https://hcmus.edu.vn/"><img src="./assets/hcmus.png" width="140" alt="HCMUS"></a></td>
+    <td><strong>University of Science, VNU-HCM</strong><br>B.S. in Mathematical Methods in Computer Science<br>Sep 2022 – Jul 2026</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://vinuni.edu.vn/"><img src="./assets/vinuni.png" width="140" alt="VinUniversity"></a></td>
+    <td><strong>VinUniversity</strong><br>Training in the Vingroup Applied AI Talent Program, Cohort 4<br>Sep 2026</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://vinfastauto.com/vn_vi"><img src="./assets/vinfast.png" width="140" alt="VinFast"></a></td>
+    <td><strong>VinFast</strong><br>ADAS on-the-job training in 3D annotation and data quality<br>Oct 2026 – Present</td>
+  </tr>
+</table>
 
 ## Featured projects
 
