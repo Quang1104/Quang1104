@@ -1,6 +1,13 @@
-<h1><img src="./assets/profile-banner.svg" alt="Quang Xuan Nguyen · AI / Machine Learning Engineer" width="1120"></h1>
+<h1>
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/profile-banner-still.png">
+    <img src="./assets/profile-banner.svg" alt="Quang Xuan Nguyen · AI / Machine Learning Engineer" width="1120">
+  </picture>
+</h1>
 
-I build LLM applications and data quality tools. I'm a Mathematical Methods in Computer Science graduate from the University of Science, VNUHCM, and I'm working on ADAS annotation pipelines and 3D data quality during on-the-job training at VinFast through the Vingroup Applied AI Talent Program.
+Hey, I'm Quang 👋 I like building tools that turn questions into SQL or catch bad 3D labels before they ship.
+
+These days I'm working on ADAS data quality at VinFast through the Vingroup Applied AI Talent Program. I studied Mathematical Methods in Computer Science at the University of Science, VNUHCM.
 
 [LinkedIn](https://www.linkedin.com/in/quangxuan-nguyen/)
 

@@ -1,6 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1120" height="252" viewBox="0 0 1120 252" role="img" aria-labelledby="title description">
   <title id="title">Quang Xuan Nguyen</title>
-  <desc id="description">AI / Machine Learning Engineer. A blue and green banner with a connected point pattern.</desc>
+  <desc id="description">AI / Machine Learning Engineer. A blue and green banner with a terminal showing a SQL query.</desc>
+  <style>
+    @media (prefers-reduced-motion: no-preference) {
+      .query {
+        animation: type-query 1.4s steps(28, end) .25s both;
+      }
+      .cursor {
+        animation: blink-cursor .7s step-end 1.65s 3 backwards;
+      }
+    }
+    @keyframes type-query {
+      from { clip-path: inset(0 100% 0 0) fill-box; }
+      to { clip-path: inset(0) fill-box; }
+    }
+    @keyframes blink-cursor {
+      0% { opacity: 0; }
+      50%, 100% { opacity: 1; }
+    }
+  </style>
   <defs>
     <linearGradient id="background" x1="0%" y1="0%" x2="100%" y2="22%">
       <stop offset="0%" stop-color="#102b62"/>
@@ -11,38 +29,21 @@
       <stop offset="0%" stop-color="#a5d7ff"/>
       <stop offset="100%" stop-color="#92edbc"/>
     </linearGradient>
-    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="1" cy="1" r="1" fill="#fff" opacity=".16"/>
-    </pattern>
-    <clipPath id="frame">
-      <rect width="1120" height="252" rx="24"/>
-    </clipPath>
   </defs>
-  <g clip-path="url(#frame)">
-    <rect width="1120" height="252" fill="url(#background)"/>
-    <rect x="766" width="354" height="252" fill="url(#grid)"/>
-    <g fill="none" stroke="url(#accent)" stroke-width="1.6">
-      <path opacity=".36" d="M744 237 826 157 903 178 977 119 1064 138 1141 76M775 110 826 157 887 82 977 119 1028 58 1064 138M903 178 960 231 1064 138 1114 210"/>
-      <path opacity=".23" d="M826 157 857 223 960 231M887 82 950 36 1028 58 1083 24"/>
-      <circle cx="977" cy="119" r="22" opacity=".28"/>
-      <circle cx="1064" cy="138" r="31" opacity=".19"/>
-    </g>
-    <g fill="#a5d7ff">
-      <circle cx="775" cy="110" r="3"/>
-      <circle cx="826" cy="157" r="5"/>
-      <circle cx="887" cy="82" r="4"/>
-      <circle cx="903" cy="178" r="4"/>
-      <circle cx="950" cy="36" r="3"/>
-    </g>
-    <g fill="#92edbc">
-      <circle cx="977" cy="119" r="7"/>
-      <circle cx="1028" cy="58" r="4"/>
-      <circle cx="1064" cy="138" r="6"/>
-      <circle cx="960" cy="231" r="4"/>
-      <circle cx="1114" cy="210" r="4"/>
-    </g>
-    <rect x="56" y="51" width="68" height="5" rx="2.5" fill="url(#accent)"/>
-    <text x="56" y="134" fill="#fff" font-family="Segoe UI, Arial, sans-serif" font-size="64" font-weight="700">Quang Xuan Nguyen</text>
-    <text x="58" y="184" fill="#d6f7ed" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="500">AI / Machine Learning Engineer</text>
+  <rect width="1120" height="252" rx="24" fill="url(#background)"/>
+  <rect x="56" y="54" width="54" height="5" rx="2.5" fill="url(#accent)"/>
+  <text x="56" y="134" fill="#fff" font-family="Segoe UI, Arial, sans-serif" font-size="64" font-weight="700">Quang Xuan Nguyen</text>
+  <text x="58" y="181" fill="#d6f7ed" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="500">AI / Machine Learning Engineer</text>
+  <g font-family="Consolas, Courier New, monospace" font-size="16">
+    <rect x="749" y="65" width="322" height="133" rx="15" fill="#0b2940" opacity=".46"/>
+    <rect x="742" y="59" width="322" height="133" rx="15" fill="#102f45" stroke="#99dfc8" stroke-opacity=".54"/>
+    <path d="M743 96h320" stroke="#99dfc8" stroke-opacity=".3"/>
+    <circle cx="765" cy="78" r="3.5" fill="#92edbc"/>
+    <circle cx="778" cy="78" r="3.5" fill="#a5d7ff"/>
+    <circle cx="791" cy="78" r="3.5" fill="#fff" opacity=".64"/>
+    <text x="903" y="83" fill="#c4e0ea" text-anchor="middle" font-size="13">psql</text>
+    <text x="766" y="125" fill="#92edbc">trades=#</text>
+    <text class="query" x="766" y="152" textLength="270" lengthAdjust="spacingAndGlyphs" fill="#fff"><tspan fill="#a5d7ff">SELECT</tspan> count(*) <tspan fill="#a5d7ff">FROM</tspan> trades;</text>
+    <rect class="cursor" x="1040" y="139" width="7" height="16" rx="1" fill="#92edbc"/>
   </g>
 </svg>
