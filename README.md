@@ -1,7 +1,7 @@
 <h1>
   <picture>
     <source media="(prefers-reduced-motion: reduce)" srcset="./assets/profile-hello-world-still.png">
-    <img src="./assets/profile-hello-world.svg" alt="Quang Xuan Nguyen · AI / Machine Learning Engineer" width="1120">
+    <img src="./assets/profile-hello-world.svg" alt="Xuan Quang - Klang · AI / Machine Learning Engineer" width="1120">
   </picture>
 </h1>
 
