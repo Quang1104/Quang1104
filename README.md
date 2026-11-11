@@ -11,6 +11,11 @@ Hey, I'm Quang 👋 I like building tools that turn questions into SQL or catch 
 
 ## My journey
 
+<picture>
+  <source media="(min-width: 1180px)" srcset="./assets/journey-beach.png 2x">
+  <img src="./assets/journey-beach-spacer.png" align="right" alt="">
+</picture>
+
 <table>
   <tr>
     <td align="center"><a href="https://hcmus.edu.vn/"><img src="./assets/hcmus.png" width="140" alt="HCMUS"></a></td>
