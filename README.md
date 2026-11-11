@@ -12,17 +12,6 @@ I built the RAG and SQL generation layer and designed the multi-agent chatbot fo
 
 `Python` · `LangChain` · `PostgreSQL` · `pgvector` · `Streamlit`
 
-### PointSnap 3D
-
-A quality control tool that checks 3D bounding boxes in CVAT against LiDAR point clouds, camera images, and labeling rules. I built the CVAT browser extension and helped test the system. In five held-out nuScenes scenes with injected labeling errors, the tool flagged **47 of 49 severe errors**.
-
-[Source code](https://github.com/imvhuy/PointSnap-3D-Tool) · [Live demo](https://pointsnap-3d.vercel.app/)
-
-### MentorPrep
-
-I proposed and built the frontend for a team dashboard that pulls CVAT jobs and GitHub activity into one place so annotators can review progress, quality scores, and difficult cases before mentor sessions.
-
-[Project showcase](https://nexus-workspace-demo.vercel.app/showcase)
 
 ## More machine learning work
 
