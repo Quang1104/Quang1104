@@ -6,13 +6,13 @@ on:
       - '.github/workflows/profile-console.yml'
       - 'scripts/console-profile.json'
       - 'scripts/render-console.py'
-      - 'assets/terminal-profile*.svg'
+      - 'assets/profile-console*.svg'
   pull_request:
     paths:
       - '.github/workflows/profile-console.yml'
       - 'scripts/console-profile.json'
       - 'scripts/render-console.py'
-      - 'assets/terminal-profile*.svg'
+      - 'assets/profile-console*.svg'
   workflow_dispatch:
 
 permissions:
