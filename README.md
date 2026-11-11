@@ -1,13 +1,30 @@
+<!-- Edit scripts/console-profile.json and run python scripts/render-console.py to rebuild the banner. -->
 <h1>
   <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/profile-hello-world-still.png">
-    <img src="./assets/profile-hello-world.svg" alt="Xuan Quang - Klang · AI / Machine Learning Engineer" width="1120">
+    <source media="(max-width: 1000px) and (prefers-reduced-motion: reduce)" srcset="./assets/terminal-profile-compact-still.svg">
+    <source media="(max-width: 1000px)" srcset="./assets/terminal-profile-compact.svg">
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/terminal-profile-still.svg">
+    <img src="./assets/terminal-profile.svg" alt="Xuan Quang - Klang · AI / Machine Learning Engineer · RAG, Vietnamese text-to-SQL, and ADAS data quality at VinFast" width="1120">
   </picture>
 </h1>
 
 I work on applied machine learning, with projects in Vietnamese text-to-SQL and 3D annotation quality for ADAS.
 
-[LinkedIn](https://www.linkedin.com/in/quangxuan-nguyen/)
+[Projects](#featured-projects) · [Journey](#my-journey) · [LinkedIn](https://www.linkedin.com/in/quangxuan-nguyen/)
+
+## Featured projects
+
+### Vietnamese Text-to-SQL chatbot
+
+I built the RAG and SQL generation layer and designed the multi-agent chatbot for a two-person graduation thesis. On 100 Vietnamese test queries, our hybrid retrieval approach achieved **91% execution accuracy** and **88% result accuracy**, up from 80% and 75% for the baseline.
+
+`Python` · `LangChain` · `PostgreSQL` · `pgvector` · `Streamlit`
+
+### MentorPrep
+
+I proposed and built the frontend for a team dashboard that pulls CVAT jobs and GitHub activity into one place so annotators can review progress, quality scores, and difficult cases before mentor sessions.
+
+[Project showcase](https://nexus-workspace-demo.vercel.app/showcase)
 
 ## My journey
 
@@ -30,20 +47,6 @@ I work on applied machine learning, with projects in Vietnamese text-to-SQL and 
     </td>
   </tr>
 </table>
-
-## Featured projects
-
-### Vietnamese Text-to-SQL chatbot
-
-I built the RAG and SQL generation layer and designed the multi-agent chatbot for a two-person graduation thesis. On 100 Vietnamese test queries, our hybrid retrieval approach achieved **91% execution accuracy** and **88% result accuracy**, up from 80% and 75% for the baseline.
-
-`Python` · `LangChain` · `PostgreSQL` · `pgvector` · `Streamlit`
-
-### MentorPrep
-
-I proposed and built the frontend for a team dashboard that pulls CVAT jobs and GitHub activity into one place so annotators can review progress, quality scores, and difficult cases before mentor sessions.
-
-[Project showcase](https://nexus-workspace-demo.vercel.app/showcase)
 
 ## More machine learning work
 
